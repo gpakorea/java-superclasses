@@ -1,0 +1,5 @@
+// Abstract Shape.java
+
+public abstract class Shape {
+  
+} // END abstract class Shape

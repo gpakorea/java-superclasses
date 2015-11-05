@@ -29,6 +29,23 @@ public class Tester {
     System.out.println( "The volume of the cylinder is: " + cy.findVolume() );
     System.out.println( "The volume of a new cylinder is: " + cy.findVolume( 2 ) );
     
+    // Test the Abstract class
+    System.out.println();
+    
+    Square sq = new Square();
+    System.out.println( "Square area is: " + sq.findArea( sq.getLength(), sq.getWidth() ) );
+    
+    // Test the Interface
+    System.out.println();
+    
+    Shark shark = new Shark();
+    shark.hunt();
+    shark.eat();
+    shark.swim();
+    shark.run();
+    shark.jump();
+    shark.hide();
+    
   } // END main method
   
 } // END Tester class
